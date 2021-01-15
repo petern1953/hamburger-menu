@@ -1,0 +1,42 @@
+@debug 1px==1;
+@debug 1px==1px;
+@debug 10px==1cm;
+@debug 48px==.5in;
+@debug .99999999999999999==1;
+
+@debug Arial !='Arial';
+@debug 'Arial' !="Arial";
+@debug Arial !="Arial";
+
+@debug true==true;
+@debug true !=false;
+
+@debug __________________________;
+
+@debug 100>50;
+@debug 10px>17px;
+@debug 96px>=1in;
+@debug 1000ms <=10s;
+
+@debug MATH ____________;
+
+@debug 10s+5s;
+@debug 10s - 50ms;
+@debug 10px * 2px;
+@debug (10px / 2);
+@debug 10px % 2;
+
+@debug STRING ____________;
+
+$postfix: "--10";
+
+.col#{$postfix}::before {
+    font: 16px / 16px "Times "+"New Roman", Times, serif;
+    content: "track"/ "list";
+}
+
+@debug BOOLEAN ____________;
+
+@debug not true;
+@debug false or true;
+@debug false and true;

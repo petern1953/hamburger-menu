@@ -14,13 +14,13 @@ nav div {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-}
+} 
 @media screen and (min-width: 40em) {
   nav div {
     align-items: center;
   }
 }
-nav div ul {
+/* nav div ul {
   display: none;
   flex-direction: column;
   list-style: none;
@@ -73,6 +73,6 @@ nav div span {
   display: block;
   height: 2px;
   width: 1.5rem;
-}
+} */
 
 /*# sourceMappingURL=style.css.map */
